@@ -1,0 +1,30 @@
+
+{
+	"id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+	"name": "Random Data Set",
+	"createdAt": "2025-10-21T12:34:56Z",
+	"active": true,
+	"count": 7,
+	"ratio": 0.618,
+	"tags": ["sample", "test", "json"],
+	"metadata": {
+		"owner": {
+			"id": 1024,
+			"username": "tester",
+			"email": null
+		},
+		"settings": {
+			"theme": "dark",
+			"notifications": false,
+			"thresholds": [10, 20, 30]
+		}
+	},
+	"items": [
+		{ "type": "number", "value": 42 },
+		{ "type": "string", "value": "hello" },
+		{ "type": "object", "value": { "a": 1, "b": [true, false, null] } },
+		{ "type": "array", "value": [1, 2, 3, 5, 8] }
+	],
+	"notes": "This is randomly generated JSON for testing purposes.",
+	"empty": null
+}
